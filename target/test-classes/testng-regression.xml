@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Regression Suite">
+    <listeners>
+        <listener class-name="com.hcmunre.utils.RetryListener" />
+    </listeners>
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.hcmunre.tests.LoginDataDrivenTest" />
+            <class name="com.hcmunre.tests.UserLoginJsonTest" />
+            <class name="com.hcmunre.tests.CheckoutFakerTest" />
+            <class name="com.hcmunre.tests.RefactoredClassicTest" />
+        </classes>
+    </test>
+</suite>

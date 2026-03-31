@@ -1,0 +1,37 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "role": "standard",
+    "expectSuccess": true,
+    "description": "User chuẩn đăng nhập thành công"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "role": "locked",
+    "expectSuccess": false,
+    "description": "User bị khóa đăng nhập thất bại"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "role": "problem",
+    "expectSuccess": true,
+    "description": "User có lỗi hiển thị đăng nhập thành công"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "role": "performance",
+    "expectSuccess": true,
+    "description": "User load chậm đăng nhập thành công"
+  },
+  {
+    "username": "invalid_user",
+    "password": "invalid_pass",
+    "role": "guest",
+    "expectSuccess": false,
+    "description": "User sai pass đăng nhập thất bại"
+  }
+]

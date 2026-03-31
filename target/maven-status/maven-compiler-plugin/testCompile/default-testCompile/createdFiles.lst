@@ -1,0 +1,8 @@
+com\hcmunre\tests\ConfigVerifyTest.class
+com\hcmunre\tests\LoginDataDrivenTest.class
+com\hcmunre\tests\CheckoutFakerTest.class
+com\hcmunre\tests\LoginTest.class
+com\hcmunre\tests\RefactoredClassicTest.class
+com\hcmunre\tests\FlakySimulationTest.class
+com\hcmunre\tests\CartTest.class
+com\hcmunre\tests\UserLoginJsonTest.class
