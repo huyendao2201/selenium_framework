@@ -1,6 +1,7 @@
 package com.hcmunre.pages;
 
 import com.hcmunre.base.BasePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,29 +24,37 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    /**
-     * Đăng nhập thành công -> Trả về InventoryPage
-     */
+    @Step("Đăng nhập với username: {user}")
     public InventoryPage login(String user, String pass) {
-        waitAndType(user, pass);
-        loginButton.click();
+        enterUsername(user);
+        enterPassword(pass);
+        clickLogin();
         return new InventoryPage(driver);
     }
 
-    /**
-     * Đăng nhập thất bại -> Ở lại LoginPage
-     */
+    @Step("Đăng nhập thất bại với username: {user}")
     public LoginPage loginExpectingFailure(String user, String pass) {
-        waitAndType(user, pass);
-        loginButton.click();
+        enterUsername(user);
+        enterPassword(pass);
+        clickLogin();
         return this;
     }
 
-    private void waitAndType(String user, String pass) {
+    @Step("Nhập username")
+    public void enterUsername(String user) {
         usernameField.clear();
         usernameField.sendKeys(user);
+    }
+
+    @Step("Nhập password")
+    public void enterPassword(String pass) {
         passwordField.clear();
         passwordField.sendKeys(pass);
+    }
+
+    @Step("Click nút Login")
+    public void clickLogin() {
+        loginButton.click();
     }
 
     public String getErrorMessage() {

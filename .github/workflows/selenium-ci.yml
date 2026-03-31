@@ -36,3 +36,9 @@ jobs:
         with:
           name: test-results-${{ matrix.browser }}
           path: target/surefire-reports/
+
+      - name: Run Selenium Tests (${{ matrix.browser }})
+        run: mvn clean test -Dbrowser=${{ matrix.browser }} -Dheadless=true -DsuiteXmlFile=testng-smoke.xml
+        env:
+          APP_USERNAME: ${{ secrets.SAUCEDEMO_USERNAME }}
+          APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}

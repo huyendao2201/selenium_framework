@@ -1,6 +1,7 @@
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/base/BasePage.java
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/base/BaseTest.java
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/config/ConfigReader.java
+/Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/driver/DriverFactory.java
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/models/UserData.java
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/pages/CartPage.java
 /Users/daochinh/Documents/ThuHuyn/HuyenStudy/Tester/Tuan9/Lab9_POM_Project/src/main/java/com/hcmunre/pages/InventoryPage.java

@@ -2,135 +2,240 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T14:14:24 GMT+07:00" name="SauceDemo Regression Suite" finished-at="2026-03-31T14:15:29 GMT+07:00" duration-ms="64893">
+  <suite started-at="2026-03-31T15:00:54 GMT+07:00" name="SauceDemo Regression Suite" finished-at="2026-03-31T15:01:40 GMT+07:00" duration-ms="46238">
     <groups>
       <group name="regression">
-        <method signature="LoginDataDrivenTest.testLoginBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@4f18837a]" name="testLoginBoundary" class="com.hcmunre.tests.LoginDataDrivenTest"/>
-        <method signature="LoginDataDrivenTest.testLoginNegative(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@4f18837a]" name="testLoginNegative" class="com.hcmunre.tests.LoginDataDrivenTest"/>
+        <method signature="LoginDataDrivenTest.testLoginBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@2767e23c]" name="testLoginBoundary" class="com.hcmunre.tests.LoginDataDrivenTest"/>
+        <method signature="LoginDataDrivenTest.testLoginNegative(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@2767e23c]" name="testLoginNegative" class="com.hcmunre.tests.LoginDataDrivenTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@4f18837a]" name="testLoginSmoke" class="com.hcmunre.tests.LoginDataDrivenTest"/>
+        <method signature="LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.hcmunre.tests.LoginDataDrivenTest@2767e23c]" name="testLoginSmoke" class="com.hcmunre.tests.LoginDataDrivenTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-31T14:14:24 GMT+07:00" name="Regression Tests" finished-at="2026-03-31T14:15:29 GMT+07:00" duration-ms="64893">
+    <test started-at="2026-03-31T15:00:54 GMT+07:00" name="Regression Tests" finished-at="2026-03-31T15:01:40 GMT+07:00" duration-ms="46238">
       <class name="com.hcmunre.tests.RefactoredClassicTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:14:59 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:00 GMT+07:00" duration-ms="1530" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:18 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:20 GMT+07:00" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:00 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:01 GMT+07:00" duration-ms="827" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:20 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:20 GMT+07:00" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddItemToCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:01 GMT+07:00" name="testAddItemToCart" description="Refactored: Thêm sản phẩm vào giỏ hàng - kiểm tra badge" finished-at="2026-03-31T14:15:02 GMT+07:00" duration-ms="249" status="PASS">
+        <test-method signature="testAddItemToCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:20 GMT+07:00" name="testAddItemToCart" description="Refactored: Thêm sản phẩm vào giỏ hàng - kiểm tra badge" finished-at="2026-03-31T15:01:21 GMT+07:00" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddItemToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:02 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:02 GMT+07:00" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:21 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:21 GMT+07:00" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddItemToCart status=SUCCESS method=RefactoredClassicTest.testAddItemToCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:02 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:04 GMT+07:00" duration-ms="1581" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:21 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:22 GMT+07:00" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:04 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:04 GMT+07:00" duration-ms="847" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:22 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:23 GMT+07:00" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testContinueShopping()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:04 GMT+07:00" name="testContinueShopping" description="Refactored: Nút Continue Shopping" finished-at="2026-03-31T14:15:05 GMT+07:00" duration-ms="287" status="PASS">
+        <test-method signature="testContinueShopping()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:23 GMT+07:00" name="testContinueShopping" description="Refactored: Nút Continue Shopping" finished-at="2026-03-31T15:01:23 GMT+07:00" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContinueShopping -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:05 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:05 GMT+07:00" duration-ms="386" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:23 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:23 GMT+07:00" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContinueShopping status=SUCCESS method=RefactoredClassicTest.testContinueShopping()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:05 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:07 GMT+07:00" duration-ms="1575" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:23 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:25 GMT+07:00" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:07 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:07 GMT+07:00" duration-ms="803" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:25 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:26 GMT+07:00" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginEmptyUsername()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:07 GMT+07:00" name="testLoginEmptyUsername" description="Refactored: Bỏ trống username" finished-at="2026-03-31T14:15:08 GMT+07:00" duration-ms="172" status="PASS">
+        <test-method signature="testLoginEmptyUsername()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:26 GMT+07:00" name="testLoginEmptyUsername" description="Refactored: Bỏ trống username" finished-at="2026-03-31T15:01:26 GMT+07:00" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginEmptyUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:08 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:13 GMT+07:00" duration-ms="5285" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:26 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:26 GMT+07:00" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyUsername status=SUCCESS method=RefactoredClassicTest.testLoginEmptyUsername()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:13 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:14 GMT+07:00" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:26 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:27 GMT+07:00" duration-ms="1383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:14 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:15 GMT+07:00" duration-ms="785" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:27 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:28 GMT+07:00" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginSuccess()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:15 GMT+07:00" name="testLoginSuccess" description="Refactored: Đăng nhập thành công với tài khoản hợp lệ" finished-at="2026-03-31T14:15:15 GMT+07:00" duration-ms="136" status="PASS">
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:28 GMT+07:00" name="testLoginSuccess" description="Refactored: Đăng nhập thành công với tài khoản hợp lệ" finished-at="2026-03-31T15:01:28 GMT+07:00" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:15 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:16 GMT+07:00" duration-ms="393" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:28 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:28 GMT+07:00" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginSuccess status=SUCCESS method=RefactoredClassicTest.testLoginSuccess()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:16 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:17 GMT+07:00" duration-ms="1536" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:28 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:30 GMT+07:00" duration-ms="1411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:17 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:18 GMT+07:00" duration-ms="895" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:30 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:30 GMT+07:00" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginWrongPassword()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:18 GMT+07:00" name="testLoginWrongPassword" description="Refactored: Đăng nhập sai mật khẩu" finished-at="2026-03-31T14:15:18 GMT+07:00" duration-ms="173" status="PASS">
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:30 GMT+07:00" name="testLoginWrongPassword" description="Refactored: Đăng nhập sai mật khẩu" finished-at="2026-03-31T15:01:31 GMT+07:00" duration-ms="699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWrongPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:18 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:19 GMT+07:00" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:31 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:31 GMT+07:00" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWrongPassword status=SUCCESS method=RefactoredClassicTest.testLoginWrongPassword()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:19 GMT+07:00" name="setUp" finished-at="2026-03-31T14:15:20 GMT+07:00" duration-ms="1531" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:31 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:32 GMT+07:00" duration-ms="1425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:20 GMT+07:00" name="setup" finished-at="2026-03-31T14:15:21 GMT+07:00" duration-ms="688" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:32 GMT+07:00" name="setup" finished-at="2026-03-31T15:01:33 GMT+07:00" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRemoveItemFromCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:21 GMT+07:00" name="testRemoveItemFromCart" description="Refactored: Xóa sản phẩm khỏi giỏ hàng" finished-at="2026-03-31T14:15:28 GMT+07:00" duration-ms="7374" status="PASS">
+        <test-method signature="testRemoveItemFromCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:33 GMT+07:00" name="testRemoveItemFromCart" description="Refactored: Xóa sản phẩm khỏi giỏ hàng" finished-at="2026-03-31T15:01:40 GMT+07:00" duration-ms="7798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveItemFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@351d00c0]" started-at="2026-03-31T14:15:28 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:15:29 GMT+07:00" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6]" started-at="2026-03-31T15:01:40 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:40 GMT+07:00" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRemoveItemFromCart status=SUCCESS method=RefactoredClassicTest.testRemoveItemFromCart()[pri:0, instance:com.hcmunre.tests.RefactoredClassicTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hcmunre.tests.RefactoredClassicTest -->
       <class name="com.hcmunre.tests.CheckoutFakerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@49e53c76]" started-at="2026-03-31T14:14:55 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:57 GMT+07:00" duration-ms="1588" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@740fb309]" started-at="2026-03-31T15:01:15 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:17 GMT+07:00" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckoutWithRandomData()[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@49e53c76]" started-at="2026-03-31T14:14:57 GMT+07:00" name="testCheckoutWithRandomData" finished-at="2026-03-31T14:14:59 GMT+07:00" duration-ms="1511" status="PASS">
+        <test-method signature="testCheckoutWithRandomData()[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@740fb309]" started-at="2026-03-31T15:01:17 GMT+07:00" name="testCheckoutWithRandomData" finished-at="2026-03-31T15:01:18 GMT+07:00" duration-ms="1241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckoutWithRandomData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@49e53c76]" started-at="2026-03-31T14:14:59 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:59 GMT+07:00" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@740fb309]" started-at="2026-03-31T15:01:18 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:18 GMT+07:00" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithRandomData status=SUCCESS method=CheckoutFakerTest.testCheckoutWithRandomData()[pri:0, instance:com.hcmunre.tests.CheckoutFakerTest@740fb309] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hcmunre.tests.CheckoutFakerTest -->
       <class name="com.hcmunre.tests.UserLoginJsonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:24 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:33 GMT+07:00" duration-ms="8743" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:00:54 GMT+07:00" name="setUp" finished-at="2026-03-31T15:00:58 GMT+07:00" duration-ms="3455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:33 GMT+07:00" name="setupTest" finished-at="2026-03-31T14:14:34 GMT+07:00" duration-ms="815" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:00:58 GMT+07:00" name="setupTest" finished-at="2026-03-31T15:00:58 GMT+07:00" duration-ms="591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,33 +244,47 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@440ef8d]]>
+                <![CDATA[[Ljava.lang.Object;@71ad959b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:34 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T14:14:34 GMT+07:00" duration-ms="202" status="PASS">
+        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:00:58 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T15:00:59 GMT+07:00" duration-ms="301" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.hcmunre.models.UserData@3abd581e]]>
+                <![CDATA[com.hcmunre.models.UserData@522ba524]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithJson -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:34 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:34 GMT+07:00" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:00:59 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:00:59 GMT+07:00" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=UserLoginJsonTest.testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:34 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:36 GMT+07:00" duration-ms="1516" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:00:59 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:01 GMT+07:00" duration-ms="2073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:36 GMT+07:00" name="setupTest" finished-at="2026-03-31T14:14:37 GMT+07:00" duration-ms="1615" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:01 GMT+07:00" name="setupTest" finished-at="2026-03-31T15:01:01 GMT+07:00" duration-ms="607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,33 +293,47 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@17fbfb02]]>
+                <![CDATA[[Ljava.lang.Object;@1d7c9811]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:37 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T14:14:37 GMT+07:00" duration-ms="157" status="PASS">
+        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:02 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T15:01:02 GMT+07:00" duration-ms="354" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.hcmunre.models.UserData@6e78fcf5]]>
+                <![CDATA[com.hcmunre.models.UserData@f446158]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithJson -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:37 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:38 GMT+07:00" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:02 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:02 GMT+07:00" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=UserLoginJsonTest.testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:38 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:39 GMT+07:00" duration-ms="1618" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:02 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:04 GMT+07:00" duration-ms="1620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:39 GMT+07:00" name="setupTest" finished-at="2026-03-31T14:14:42 GMT+07:00" duration-ms="2868" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:04 GMT+07:00" name="setupTest" finished-at="2026-03-31T15:01:04 GMT+07:00" duration-ms="185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,33 +342,47 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@8f2e3e6]]>
+                <![CDATA[[Ljava.lang.Object;@3b362f1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:42 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T14:14:43 GMT+07:00" duration-ms="171" status="PASS">
+        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:04 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T15:01:05 GMT+07:00" duration-ms="708" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.hcmunre.models.UserData@29be7749]]>
+                <![CDATA[com.hcmunre.models.UserData@40e60ece]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithJson -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:43 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:43 GMT+07:00" duration-ms="395" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:05 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:05 GMT+07:00" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=UserLoginJsonTest.testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:43 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:45 GMT+07:00" duration-ms="1587" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:05 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:06 GMT+07:00" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:45 GMT+07:00" name="setupTest" finished-at="2026-03-31T14:14:47 GMT+07:00" duration-ms="2544" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:06 GMT+07:00" name="setupTest" finished-at="2026-03-31T15:01:07 GMT+07:00" duration-ms="551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,33 +391,47 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@6f315b08]]>
+                <![CDATA[[Ljava.lang.Object;@6451a288]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:47 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T14:14:52 GMT+07:00" duration-ms="5158" status="PASS">
+        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:07 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T15:01:12 GMT+07:00" duration-ms="5373" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.hcmunre.models.UserData@6b474074]]>
+                <![CDATA[com.hcmunre.models.UserData@5d425813]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithJson -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:52 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:53 GMT+07:00" duration-ms="395" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:12 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:12 GMT+07:00" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=UserLoginJsonTest.testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:53 GMT+07:00" name="setUp" finished-at="2026-03-31T14:14:54 GMT+07:00" duration-ms="1548" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:12 GMT+07:00" name="setUp" finished-at="2026-03-31T15:01:14 GMT+07:00" duration-ms="1682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:54 GMT+07:00" name="setupTest" finished-at="2026-03-31T14:14:55 GMT+07:00" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:14 GMT+07:00" name="setupTest" finished-at="2026-03-31T15:01:15 GMT+07:00" duration-ms="560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,25 +440,32 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@6c8efde4]]>
+                <![CDATA[[Ljava.lang.Object;@79cdf2d4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:55 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T14:14:55 GMT+07:00" duration-ms="155" status="PASS">
+        <test-method signature="testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:15 GMT+07:00" name="testLoginWithJson" data-provider="UserDataJson" finished-at="2026-03-31T15:01:15 GMT+07:00" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.hcmunre.models.UserData@2257fadf]]>
+                <![CDATA[com.hcmunre.models.UserData@3dffc764]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithJson -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@38d8f54a]" started-at="2026-03-31T14:14:55 GMT+07:00" name="tearDown" finished-at="2026-03-31T14:14:55 GMT+07:00" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb]" started-at="2026-03-31T15:01:15 GMT+07:00" name="tearDown" finished-at="2026-03-31T15:01:15 GMT+07:00" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=UserLoginJsonTest.testLoginWithJson(com.hcmunre.models.UserData)[pri:0, instance:com.hcmunre.tests.UserLoginJsonTest@eadd4fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

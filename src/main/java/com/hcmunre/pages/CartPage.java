@@ -1,7 +1,7 @@
 package com.hcmunre.pages;
 
 import com.hcmunre.base.BasePage;
-
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,10 +30,12 @@ public class CartPage extends BasePage {
         super(driver);
     }
 
+    @Step("Lấy số lượng sản phẩm trong giỏ hàng")
     public int getItemCount() {
         return cartItems.size();
     }
 
+    @Step("Xóa sản phẩm đầu tiên trong giỏ")
     public CartPage removeFirstItem() {
         if (!removeButtons.isEmpty()) {
             removeButtons.get(0).click();
@@ -41,19 +43,18 @@ public class CartPage extends BasePage {
         return this;
     }
 
+    @Step("Click Checkout")
     public void goToCheckout() {
-        // Lab yêu cầu trả về CheckoutPage nếu có, nhưng ở đây đề bài chỉ yêu cầu tạo 3
-        // Page Objects
-        // Nên tôi sẽ giữ void hoặc trả về trang hiện tại tùy ý.
-        // Theo chuẩn Lab, ta giả định có thể trả về CheckoutPage hoặc thực hiện action.
         checkoutButton.click();
     }
 
+    @Step("Tiếp tục mua hàng")
     public InventoryPage continueShopping() {
         continueShoppingButton.click();
         return new InventoryPage(driver);
     }
 
+    @Step("Lấy danh sách tên sản phẩm")
     public List<String> getItemNames() {
         List<String> names = new ArrayList<>();
         for (WebElement name : itemNames) {

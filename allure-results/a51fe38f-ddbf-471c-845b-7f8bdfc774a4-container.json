@@ -1,0 +1,1 @@
+{"uuid":"a51fe38f-ddbf-471c-845b-7f8bdfc774a4","name":"com.hcmunre.base.BaseTest.setUp","children":["44d7f305-992b-48e3-b995-9f113e37d9b2"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1774943770183,"stop":1774943771739}],"afters":[],"start":1774943770183,"stop":1774943771739}

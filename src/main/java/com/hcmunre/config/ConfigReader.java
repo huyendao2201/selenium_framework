@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class ConfigReader {
     private static ConfigReader instance;
-    private Properties properties;
+    private final Properties properties;
 
     private ConfigReader() {
         String env = System.getProperty("env", "dev");
@@ -35,5 +35,25 @@ public class ConfigReader {
 
     public int getIntProperty(String key) {
         return Integer.parseInt(properties.getProperty(key));
+    }
+
+    public String getUsername() {
+        String username = System.getenv("APP_USERNAME");
+        if (username == null || username.isBlank()) {
+            username = getProperty("app.username");
+        }
+        return username;
+    }
+
+    public String getPassword() {
+        String password = System.getenv("APP_PASSWORD");
+        if (password == null || password.isBlank()) {
+            password = getProperty("app.password");
+        }
+        return password;
+    }
+
+    public String getBaseUrl() {
+        return getProperty("base.url");
     }
 }
