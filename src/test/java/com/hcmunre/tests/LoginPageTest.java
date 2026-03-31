@@ -1,7 +1,7 @@
 package com.hcmunre.tests;
 
 import com.hcmunre.base.BaseTest;
-import com.hcmunre.pages.BasePage;
+import com.hcmunre.base.BasePage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
