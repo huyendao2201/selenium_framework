@@ -30,14 +30,17 @@ public class DriverFactory {
         switch (browser.toLowerCase()) {
             case "firefox":
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
+
                 if (isHeadless) {
                     firefoxOptions.addArguments("-headless");
                 }
+
                 return new FirefoxDriver(firefoxOptions);
 
             case "chrome":
             default:
                 ChromeOptions chromeOptions = new ChromeOptions();
+
                 if (isHeadless) {
                     chromeOptions.addArguments("--headless=new");
                     chromeOptions.addArguments("--no-sandbox");
@@ -46,6 +49,7 @@ public class DriverFactory {
                 } else {
                     chromeOptions.addArguments("--start-maximized");
                 }
+
                 chromeOptions.addArguments("--remote-allow-origins=*");
                 return new ChromeDriver(chromeOptions);
         }
@@ -57,12 +61,16 @@ public class DriverFactory {
 
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--window-size=1920,1080");
             caps.merge(options);
         }
 
         if (browser.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("-headless");
             caps.merge(options);
         }
 

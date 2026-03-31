@@ -7,7 +7,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
@@ -26,8 +29,6 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown(ITestResult result) {
-
-        // 🔥 attach screenshot khi fail
         if (result.getStatus() == ITestResult.FAILURE && driver != null) {
             attachScreenshot();
         }

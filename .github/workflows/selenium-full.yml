@@ -25,7 +25,7 @@ jobs:
           cache: maven
 
       - name: Chạy test
-        run: mvn clean test -Dbrowser=${{ matrix.browser }} -DsuiteXmlFile=testng-smoke.xml
+        run: mvn clean test -Dbrowser=${{ matrix.browser }} -Dheadless=true -DsuiteXmlFile=testng-smoke.xml
         env:
           APP_USERNAME: ${{ secrets.SAUCEDEMO_USERNAME }}
           APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
@@ -38,8 +38,8 @@ jobs:
           path: target/allure-results/
 
   publish-report:
-    needs: test # chạy sau khi test xong
-    if: always() # kể cả khi test fail
+    needs: test
+    if: always()
     runs-on: ubuntu-latest
 
     steps:
