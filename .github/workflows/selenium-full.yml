@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 2 * * 1-5'
+    - cron: '0 2 * * 1-5' # 2:00 AM thứ 2 đến thứ 6
 
 jobs:
   test:
@@ -16,18 +16,16 @@ jobs:
       fail-fast: false
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Java 17
-        uses: actions/setup-java@v4
+      - uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
 
-      - name: Run Selenium Tests
-        run: mvn clean test -Dbrowser=${{ matrix.browser }} -Dheadless=true -DsuiteXmlFile=testng-smoke.xml
+      - name: Chạy test
+        run: mvn clean test -Dbrowser=${{ matrix.browser }} -DsuiteXmlFile=testng-smoke.xml
         env:
           APP_USERNAME: ${{ secrets.SAUCEDEMO_USERNAME }}
           APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
@@ -40,27 +38,26 @@ jobs:
           path: target/allure-results/
 
   publish-report:
-    needs: test
-    if: always()
+    needs: test # chạy sau khi test xong
+    if: always() # kể cả khi test fail
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Download Chrome results
+      - name: Download kết quả Chrome
         uses: actions/download-artifact@v4
         with:
           name: allure-results-chrome
           path: allure-results/
 
-      - name: Download Firefox results
+      - name: Download kết quả Firefox
         uses: actions/download-artifact@v4
         with:
           name: allure-results-firefox
           path: allure-results/
 
-      - name: Generate and Publish Allure Report
+      - name: Tạo và Publish Allure Report
         uses: simple-elf/allure-report-action@master
         with:
           allure_results: allure-results
